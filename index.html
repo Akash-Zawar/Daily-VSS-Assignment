@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="My form" />
+    <meta
+      name="keyword"
+      content="money plant,HTML,CSS,XML,JavaScript,reactjs,typescript,web engineering"
+    />
+    <meta name="Author" content="Sushmitha" />
+    <meta
+      property="og:image"
+      content="https://vidhyaskillschool.com/assets/img/content/banner-v2.jpg
+    "
+    />
+    <title>Registration Form</title>
+
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&family=Poppins:ital,wght@1,200&family=Rubik+Iso&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lobster&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Tilt+Warp&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+
+  <body>
+    <div class="container">
+      <header class="header">
+        <h1 id="title">Registration Form</h1>
+        <p id="description">Personality development club</p>
+      </header>
+      <div>
+        <form id="survey-form">
+          <div class="flex">
+            <label for="name" id="name-label" class="ques">Name</label>
+            <input
+              class="inputi"
+              type="text"
+              name="myName"
+              id="name"
+              required
+              placeholder="Write your name"
+            />
+
+            <label for="email" id="email-label" class="ques1">Email</label>
+            <input
+              type="email"
+              name="Email-id"
+              id="email"
+              required
+              placeholder="Write your email"
+              class="inputi"
+            />
+
+            <label for="Mobile number" id="number-label" class="ques1"
+              >Mobile Number</label
+            >
+            <input
+              type="tel"
+              name="myNumber"
+              id="number"
+              required
+              placeholder="Write your mobile number"
+              class="inputi"
+            />
+            <div>
+              <p class="ques1">What is your Gender?</p>
+              <div class="sub-opt">
+                Male<input type="radio" name="myGender" value="Male" />
+                Female<input type="radio" name="myGender" value="Female" />
+              </div>
+            </div>
+            <div>
+              <p class="ques1">What is your branch?</p>
+              <select name="myBranch" id="dropdown" required class="inputi">
+                <option value="engineering">
+                  Choose the branch from below
+                </option>
+                <option value="Mechanical">Mechanical</option>
+                <option value="Computer Science">Computer Science</option>
+                <option value="Electronics">Electronics</option>
+                <option value="Instrumentation">Instrumentation</option>
+                <option value="Chemical">Chemical</option>
+                <option value="Others">Others</option>
+              </select>
+            </div>
+            <div>
+              <p class="ques1">What are your hobbies?</p>
+              <div class="sub-opt">
+                <label
+                  >Cooking<input
+                    type="checkbox"
+                    name="myInterest"
+                    class="sub-opt" /></label
+                ><br />
+                <label
+                  >Dancing<input
+                    type="checkbox"
+                    name="myInterest"
+                    class="sub-opt" /></label
+                ><br />
+                <label
+                  >Singing<input
+                    type="checkbox"
+                    name="myInterest"
+                    class="sub-opt" /></label
+                ><br />
+                <label
+                  >Reading<input
+                    type="checkbox"
+                    name="myInterest"
+                    class="sub-opt" /></label
+                ><br />
+                <label
+                  >Others<input
+                    type="checkbox"
+                    name="myInterest"
+                    class="sub-opt" /></label
+                ><br />
+              </div>
+            </div>
+            <div id="Photo">
+              <p class="ques1">Upload your image</p>
+              <input type="file" is="yourImage" />
+            </div>
+
+            <div id="text-area">
+              <p class="ques1">Tell us more about yourself.</p>
+              <textarea
+                name="my text"
+                rows="3"
+                cols="30"
+                class="inputi"
+                placeholder="The session was...."
+              ></textarea>
+            </div>
+            <div id="Submit-button">
+              <input type="Submit" value="submit" id="submit" class="buttons" />
+              <input type="reset" value="Reset" id="submit" class="buttons" />
+            </div>
+          </div>
+        </form>
+      </div>
+    </div>
+  </body>
+  <footer>
+    <h3>Thank you for your Registration!!</h3>
+  </footer>
+</html>

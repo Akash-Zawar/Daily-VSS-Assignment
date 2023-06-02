@@ -1,0 +1,93 @@
+body {
+  /* text-align:center;  */
+  background-color: rgba(40, 45, 186, 0.7);
+  /* background-image: url(https://www.shutterstock.com/image-vector/isometric-artwork-concept-online-registration-600w-1319771138.jpg); */
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin: auto;
+  padding: auto;
+  background-position: center;
+}
+
+.container {
+  border: 3px double black;
+  width: 500px;
+  margin: auto;
+  margin-top: 20px;
+}
+
+.header {
+  font-size: 20px;
+  font-family: "Lobster", cursive;
+  margin-top: -20px;
+  text-align: center;
+}
+
+#description {
+  font-size: 25px;
+  font-style: italic;
+  font-family: "Montserrat", sans-serif;
+  margin-top: -25px;
+  margin-bottom: 15px;
+}
+
+.flex {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 10px;
+  padding: 30px;
+  margin: -10px;
+  padding-bottom: 10px;
+}
+
+.inputi {
+  width: 460px;
+  border: 2px solid #434447;
+  border-radius: 5px;
+  height: 30px;
+  font-size: 12px;
+  background-color: #f3f2fc;
+  font-family: "Tilt Warp", cursive;
+  font-style: italic;
+}
+
+.ques {
+  margin-top: -10px;
+  /* border: 2px solid rgba(9, 28, 118, 0.1); */
+  background-color: rgba(16, 50, 205, 0.1);
+  font-size: 20px;
+  font-family: "Tilt Warp", cursive;
+}
+
+.ques1 {
+  margin-top: 10px;
+
+  background-color: rgba(16, 50, 205, 0.1);
+  font-size: 20px;
+  font-family: "Tilt Warp", cursive;
+}
+
+.sub-opt {
+  font-size: 16px;
+  font-family: "cursive", sans;
+  margin: auto;
+  padding-left: 20px;
+  padding-top: -10px;
+}
+
+.buttons {
+  width: 100px;
+  height: 30px;
+  border: 2px solid rgb(57, 84, 209);
+  border-radius: 12px;
+  background-color: rgba(87, 110, 217, 0.89);
+  color: rgba(0, 12, 11, 0.65);
+  font-size: 15px;
+  font-family: "cursive", sans;
+  margin-right: 30px;
+}
+
+footer {
+  text-align: center;
+}
