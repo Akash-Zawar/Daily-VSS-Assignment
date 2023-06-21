@@ -1,0 +1,101 @@
+.grid{
+    display: flex;
+    flex-wrap: wrap;
+    gap:20px;
+    justify-content: center;
+    padding:50px;
+}
+
+.card{
+display:flex;
+flex-direction: column;
+width: 265px;
+justify-content: flex-start;
+/* gap:2px; */
+}
+
+.productImgTag{
+    width:265px;
+    height: 360px;
+}
+
+.title{
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+
+    /* max-width: 235px; */
+    /* box-sizing: border-box; */
+
+}
+.name{
+    width:235px;
+    
+}
+
+h3{
+    font-family: sans-serif;
+    font-size: 12px;
+    color:#4f5362;
+    width:120px;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+}
+
+h2{
+    /* margin-top: 4px;*/
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+
+    font-family: montserrat-regular, sans-serif;
+    font-size: 10px;
+    line-height: 12px;
+    color:rgb(115,115,115);
+    overflow: hidden;
+}
+
+.price{
+    display:flex;
+    gap:5px;
+    font-size: 16px;
+    align-items:end;
+    font-weight: 700;
+}
+
+.sym{
+    font-size: 12px;
+    font-weight: 300;
+}
+.actual{
+    text-decoration: line-through;
+    font-size: 12px;
+    color: rgb(148,148,148);
+    font-weight: 100;
+}
+.spc{
+    display: flex;
+    flex-direction: column;
+    gap:8px;
+}
+.special{
+   color: rgb(0,0,0,0.8);
+   background-color: rgba(116, 111, 111, 0.086);
+   /* font-weight: bold; */
+   padding-left:10px;
+   margin:5px 0px;
+   display: inline;
+   font-size: 11px;
+   padding-right: 15px;
+   /* height: 12px;; */
+}
+
+
+.quality{
+    border: 1px black solid;
+    /* box-sizing:border-box; */
+    padding-right: 5px;
+    padding-left: 5px;
+}
+
